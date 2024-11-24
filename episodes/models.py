@@ -19,6 +19,7 @@ class Episode(models.Model):
 
     class Meta:
         unique_together = ["season_number", "episode_number"]
+        ordering = ["season_number", "episode_number"]
 
     def __str__(self):
         return self.painting_title

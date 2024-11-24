@@ -1,0 +1,50 @@
+{% extends "episodes/base.html" %}
+{% block title %}Joy of Painting - Episodes{% endblock %}
+
+{% block content %}
+<h2>Episode List</h2>
+<table>
+    <colgroup>
+       <col span="1" style="width: 45%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 25%;">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Painting Title</th>
+        <th>Season</th>
+        <th>Episode</th>
+        <th>Number of Colors</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for episode in page_obj %}
+      <tr>
+        <td>{{ episode.painting_title }}</td>
+        <td>{{ episode.season_number }}</td>
+        <td>{{ episode.episode_number }}</td>
+        <td>{{ episode.colors.all.count }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+</table>
+
+<div>
+    <span>
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span>
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+{% endblock %}
