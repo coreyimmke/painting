@@ -1,0 +1,4525 @@
+[
+  {
+    "model": "episodes.color",
+    "pk": 1,
+    "fields": { "color_name": "Black Gesso", "hex_code": "#000000" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 2,
+    "fields": { "color_name": "Bright Red", "hex_code": "#DB0000" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 3,
+    "fields": { "color_name": "Burnt Umber", "hex_code": "#8A3324" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 4,
+    "fields": { "color_name": "Cadmium Yellow", "hex_code": "#FFEC00" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 5,
+    "fields": { "color_name": "Dark Sienna", "hex_code": "#5F2E1F" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 6,
+    "fields": { "color_name": "Indian Red", "hex_code": "#CD5C5C" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 7,
+    "fields": { "color_name": "Indian Yellow", "hex_code": "#FFB800" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 8,
+    "fields": { "color_name": "Liquid Black", "hex_code": "#000000" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 9,
+    "fields": { "color_name": "Liquid Clear", "hex_code": "#FFFFFF" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 10,
+    "fields": { "color_name": "Midnight Black", "hex_code": "#000000" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 11,
+    "fields": { "color_name": "Phthalo Blue", "hex_code": "#0C0040" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 12,
+    "fields": { "color_name": "Phthalo Green", "hex_code": "#102E3C" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 13,
+    "fields": { "color_name": "Prussian Blue", "hex_code": "#021E44" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 14,
+    "fields": { "color_name": "Sap Green", "hex_code": "#0A3410" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 15,
+    "fields": { "color_name": "Titanium White", "hex_code": "#FFFFFF" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 16,
+    "fields": { "color_name": "Van Dyke Brown", "hex_code": "#221B15" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 17,
+    "fields": { "color_name": "Yellow Ochre", "hex_code": "#C79B00" }
+  },
+  {
+    "model": "episodes.color",
+    "pk": 18,
+    "fields": { "color_name": "Alizarin Crimson", "hex_code": "#4E1500" }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 1,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 13,
+      "painting_title": "Peaks of Majesty",
+      "youtube_src": "https://www.youtube.com/embed/lTb8DN6G6dE",
+      "colors": [18, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 2,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 1,
+      "painting_title": "Babbling Brook",
+      "youtube_src": "https://www.youtube.com/embed/ZHUdS0wEaKk",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 3,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 7,
+      "painting_title": "Barn at Sunset",
+      "youtube_src": "https://www.youtube.com/embed/WT6n0K2zGnA",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 4,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 13,
+      "painting_title": "Florida's Glory",
+      "youtube_src": "https://www.youtube.com/embed/HQC5sPN9Xhc",
+      "colors": [18, 4, 5, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 5,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 1,
+      "painting_title": "In the Stillness of Morning",
+      "youtube_src": "https://www.youtube.com/embed/5rfGa1_iJpw",
+      "colors": [18, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 6,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 4,
+      "painting_title": "Snowy Morn",
+      "youtube_src": "https://www.youtube.com/embed/iB1TDWlo0kk",
+      "colors": [18, 5, 10, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 7,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 2,
+      "painting_title": "Angler's Haven",
+      "youtube_src": "https://www.youtube.com/embed/XlwfcXZ0AIU",
+      "colors": [18, 2, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 8,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 10,
+      "painting_title": "Wintertime Blues",
+      "youtube_src": "https://www.youtube.com/embed/dbMJVM4iL2Q",
+      "colors": [18, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 9,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 10,
+      "painting_title": "After the Rain",
+      "youtube_src": "https://www.youtube.com/embed/Wj-3ct7RvAI",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 10,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 1,
+      "painting_title": "Autumn Images",
+      "youtube_src": "https://www.youtube.com/embed/HMx34Am6RFg",
+      "colors": [18, 2, 4, 5, 6, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 11,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 5,
+      "painting_title": "Autumn Splendor",
+      "youtube_src": "https://www.youtube.com/embed/rTTWw5Gd79I",
+      "colors": [18, 2, 3, 4, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 12,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 3,
+      "painting_title": "Evergreens at Sunset",
+      "youtube_src": "https://www.youtube.com/embed/YQPEy3hYGo8",
+      "colors": [18, 2, 4, 7, 10, 14, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 13,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 8,
+      "painting_title": "Mountain Splendor",
+      "youtube_src": "https://www.youtube.com/embed/GhOGZMpPUSE",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 14,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 10,
+      "painting_title": "Pot O' Posies",
+      "youtube_src": "https://www.youtube.com/embed/2zv_S_uVoVQ",
+      "colors": [18, 1, 2, 10, 13, 14]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 15,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 7,
+      "painting_title": "Winter Hideaway",
+      "youtube_src": "https://www.youtube.com/embed/19oz9XHZNzA",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 16,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 13,
+      "painting_title": "Blue Ridge Falls",
+      "youtube_src": "https://www.youtube.com/embed/fz0YjqtHW84",
+      "colors": [18, 1, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 17,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 11,
+      "painting_title": "Grey Winter",
+      "youtube_src": "https://www.youtube.com/embed/sS-hNYgDUak",
+      "colors": [18, 10, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 18,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 4,
+      "painting_title": "Light at the Summit",
+      "youtube_src": "https://www.youtube.com/embed/HOdS-G8p1KE",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 19,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 8,
+      "painting_title": "Reflections",
+      "youtube_src": "https://www.youtube.com/embed/0FYfo94qefg",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 20,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 2,
+      "painting_title": "Nestled Cabin",
+      "youtube_src": "https://www.youtube.com/embed/l_jN9KN257M",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 21,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 7,
+      "painting_title": "Quiet Mountains River",
+      "youtube_src": "https://www.youtube.com/embed/Leiw-FtADZc",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 22,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 4,
+      "painting_title": "Stormy Seas",
+      "youtube_src": "https://www.youtube.com/embed/LE6agCR5iBw",
+      "colors": [18, 2, 4, 5, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 23,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 6,
+      "painting_title": "Waterfall in the Woods",
+      "youtube_src": "https://www.youtube.com/embed/uBRKVa7sy1Q",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 24,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 7,
+      "painting_title": "Bridge to Autumn",
+      "youtube_src": "https://www.youtube.com/embed/ReENCTH7MYI",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 25,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 7,
+      "painting_title": "Deep Woods",
+      "youtube_src": "https://www.youtube.com/embed/rE5ZVs_YJfE",
+      "colors": [18, 2, 4, 5, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 26,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 3,
+      "painting_title": "Grandpa's Barn",
+      "youtube_src": "https://www.youtube.com/embed/IPPU49PyfEA",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 27,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 2,
+      "painting_title": "New Day's Dawn",
+      "youtube_src": "https://www.youtube.com/embed/vbPdQ0w8ylg",
+      "colors": [18, 2, 4, 5, 7, 9, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 28,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 10,
+      "painting_title": "Old Country Mill",
+      "youtube_src": "https://www.youtube.com/embed/n8HlFCQACYA",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 29,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 11,
+      "painting_title": "Waterfall Wonder",
+      "youtube_src": "https://www.youtube.com/embed/AGhXEPfp-W4",
+      "colors": [18, 1, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 30,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 7,
+      "painting_title": "Autumn Fantasy",
+      "youtube_src": "https://www.youtube.com/embed/FozIp7Va7dY",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 31,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 5,
+      "painting_title": "Hidden Winter Moon Oval",
+      "youtube_src": "https://www.youtube.com/embed/yxAMOdl6RJE",
+      "colors": [18, 1, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 32,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 9,
+      "painting_title": "Seascape Fantasy",
+      "youtube_src": "https://www.youtube.com/embed/sBBBilrDuSw",
+      "colors": [18, 1, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 33,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 13,
+      "painting_title": "Valley of Tranquility",
+      "youtube_src": "https://www.youtube.com/embed/FnY7jDY5PsE",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 34,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 13,
+      "painting_title": "Winter Bliss",
+      "youtube_src": "https://www.youtube.com/embed/yInYwy6AsDQ",
+      "colors": [18, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 35,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 6,
+      "painting_title": "Mountain Rhapsody",
+      "youtube_src": "https://www.youtube.com/embed/H4VsmKU5T7g",
+      "colors": [18, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 36,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 11,
+      "painting_title": "Tranquil Seas",
+      "youtube_src": "https://www.youtube.com/embed/kN1DP_yqs-A",
+      "colors": [18, 1, 2, 4, 7, 10, 11, 12, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 37,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 3,
+      "painting_title": "Wintertime Discovery",
+      "youtube_src": "https://www.youtube.com/embed/uZyZW3tkCE0",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 38,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 9,
+      "painting_title": "Barn in Snow Oval",
+      "youtube_src": "https://www.youtube.com/embed/wJmi7-G9r-w",
+      "colors": [18, 5, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 39,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 10,
+      "painting_title": "Days Gone By",
+      "youtube_src": "https://www.youtube.com/embed/DmYhNHVIdMI",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 40,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 9,
+      "painting_title": "Haven in the Valley",
+      "youtube_src": "https://www.youtube.com/embed/Qccgam514ds",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 41,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 13,
+      "painting_title": "Rippling Waters",
+      "youtube_src": "https://www.youtube.com/embed/XvnJBynSiT0",
+      "colors": [18, 2, 4, 5, 7, 8, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 42,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 9,
+      "painting_title": "Winter Paradise",
+      "youtube_src": "https://www.youtube.com/embed/DY1aBv8Z1SQ",
+      "colors": [18, 5, 10, 11, 13, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 43,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 11,
+      "painting_title": "A Perfect Winter Day",
+      "youtube_src": "https://www.youtube.com/embed/Io4fwhacpEs",
+      "colors": [18, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 44,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 5,
+      "painting_title": "Cabin at Trails End",
+      "youtube_src": "https://www.youtube.com/embed/GLkLO4KqTRs",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 45,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 10,
+      "painting_title": "Falls in the Glen",
+      "youtube_src": "https://www.youtube.com/embed/txAtX-VyVNc",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 46,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 4,
+      "painting_title": "Hazy Day",
+      "youtube_src": "https://www.youtube.com/embed/5U3G61r35Mc",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 47,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 11,
+      "painting_title": "Frozen Beauty in Vignette",
+      "youtube_src": "https://www.youtube.com/embed/H15kV1wbDG4",
+      "colors": [2, 5, 10, 11, 12, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 48,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 1,
+      "painting_title": "Golden Mist Oval",
+      "youtube_src": "https://www.youtube.com/embed/lhpfaW0k6uM",
+      "colors": [18, 2, 4, 5, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 49,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 10,
+      "painting_title": "Lazy River",
+      "youtube_src": "https://www.youtube.com/embed/BW2wKKFvH1g",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 50,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 9,
+      "painting_title": "Christmas Eve Snow",
+      "youtube_src": "https://www.youtube.com/embed/cVqFG2pxK2A",
+      "colors": [18, 1, 4, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 51,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 13,
+      "painting_title": "Double Take",
+      "youtube_src": "https://www.youtube.com/embed/ppzFgG2K2k4",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 52,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 12,
+      "painting_title": "Hidden Delight",
+      "youtube_src": "https://www.youtube.com/embed/ZyPNzDaaDt8",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 53,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 9,
+      "painting_title": "Indian Summer",
+      "youtube_src": "https://www.youtube.com/embed/pfWV8NkotvU",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 54,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 12,
+      "painting_title": "Mighty Mountain Lake",
+      "youtube_src": "https://www.youtube.com/embed/4vXB2R8ybDE",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 55,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 1,
+      "painting_title": "Valley View",
+      "youtube_src": "https://www.youtube.com/embed/pw5ETGiiBRg",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 56,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 11,
+      "painting_title": "A Cold Spring Day",
+      "youtube_src": "https://www.youtube.com/embed/jq8bIbpW7DQ",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 57,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 2,
+      "painting_title": "A Warm Winter",
+      "youtube_src": "https://www.youtube.com/embed/_TTdw3YnXuo",
+      "colors": [18, 2, 4, 10, 11, 13, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 58,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 12,
+      "painting_title": "Autumn Days",
+      "youtube_src": "https://www.youtube.com/embed/VAdMkf-AAPM",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 59,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 12,
+      "painting_title": "Lone Mountain",
+      "youtube_src": "https://www.youtube.com/embed/NJbzIftLLmU",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 60,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 12,
+      "painting_title": "Mountain Serenity",
+      "youtube_src": "https://www.youtube.com/embed/wc_YVijYjT4",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 61,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 12,
+      "painting_title": "Mountain Waterfall",
+      "youtube_src": "https://www.youtube.com/embed/9jIt95PCFAA",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 62,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 3,
+      "painting_title": "Royal Majesty",
+      "youtube_src": "https://www.youtube.com/embed/ubUXBqE6t0U",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 63,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 4,
+      "painting_title": "Serenity",
+      "youtube_src": "https://www.youtube.com/embed/crqmO3qDdco",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 64,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 1,
+      "painting_title": "Splendor of Winter",
+      "youtube_src": "https://www.youtube.com/embed/oJvk7gPDHiE",
+      "colors": [18, 2, 4, 5, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 65,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 9,
+      "painting_title": "Winter's Grace",
+      "youtube_src": "https://www.youtube.com/embed/mxJ2On9wyvY",
+      "colors": [10, 11, 13, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 66,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 5,
+      "painting_title": "A Copper Winter",
+      "youtube_src": "https://www.youtube.com/embed/BSjee-ond7w",
+      "colors": [18, 2, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 67,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 7,
+      "painting_title": "Cypress Creek",
+      "youtube_src": "https://www.youtube.com/embed/Tnb2cXKKuWM",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 68,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 1,
+      "painting_title": "Fisherman's Trail",
+      "youtube_src": "https://www.youtube.com/embed/VnZEpic2UzU",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 69,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 6,
+      "painting_title": "Glacier Lake",
+      "youtube_src": "https://www.youtube.com/embed/TohG7F8M3Ls",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 70,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 13,
+      "painting_title": "Home Before Nightfall",
+      "youtube_src": "https://www.youtube.com/embed/22SiIDvyJeM",
+      "colors": [18, 2, 4, 10, 11, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 71,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 12,
+      "painting_title": "In the Midst of Winter",
+      "youtube_src": "https://www.youtube.com/embed/qx2IsmrCs3c",
+      "colors": [18, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 72,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 4,
+      "painting_title": "Wilderness Falls",
+      "youtube_src": "https://www.youtube.com/embed/gxd0MPX8c6I",
+      "colors": [18, 2, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 73,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 6,
+      "painting_title": "Cliffside",
+      "youtube_src": "https://www.youtube.com/embed/p6Uy2qOLvGk",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 74,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 4,
+      "painting_title": "Golden Rays of Sunshine",
+      "youtube_src": "https://www.youtube.com/embed/zxj3xLDNxo0",
+      "colors": [18, 1, 7, 9, 11, 13, 14, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 75,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 2,
+      "painting_title": "Meadow Brook Surprise",
+      "youtube_src": "https://www.youtube.com/embed/Ov5oIHTAa10",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 76,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 2,
+      "painting_title": "Mountain Reflections",
+      "youtube_src": "https://www.youtube.com/embed/rzYpa4XGSnA",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 77,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 6,
+      "painting_title": "Oval Barn",
+      "youtube_src": "https://www.youtube.com/embed/HqBhCibidNM",
+      "colors": [2, 5, 10, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 78,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 6,
+      "painting_title": "Purple Haze",
+      "youtube_src": "https://www.youtube.com/embed/ZoJ2tcXWb7g",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 79,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 6,
+      "painting_title": "Covered Bridge",
+      "youtube_src": "https://www.youtube.com/embed/OHSm8kLE7js",
+      "colors": [18, 2, 3, 4, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 80,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 3,
+      "painting_title": "Under Pastel Skies",
+      "youtube_src": "https://www.youtube.com/embed/lzODyJS2ZIg",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 81,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 11,
+      "painting_title": "Winter Elegance",
+      "youtube_src": "https://www.youtube.com/embed/JjBZzKp_u5E",
+      "colors": [18, 2, 4, 5, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 82,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 8,
+      "painting_title": "Winter Lace",
+      "youtube_src": "https://www.youtube.com/embed/WJF_qoQRPck",
+      "colors": [18, 2, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 83,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 7,
+      "painting_title": "At Dawn's Light",
+      "youtube_src": "https://www.youtube.com/embed/HFdTxqEznIk",
+      "colors": [18, 2, 4, 5, 10, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 84,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 13,
+      "painting_title": "Dark Waterfall",
+      "youtube_src": "https://www.youtube.com/embed/VqMbL00eZqw",
+      "colors": [18, 2, 4, 5, 7, 8, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 85,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 7,
+      "painting_title": "Dimensions",
+      "youtube_src": "https://www.youtube.com/embed/JUuP75RVZDI",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 86,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 4,
+      "painting_title": "Hidden Stream",
+      "youtube_src": "https://www.youtube.com/embed/JGzTg8fCj4w",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 87,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 10,
+      "painting_title": "Mountain Glory",
+      "youtube_src": "https://www.youtube.com/embed/0M9pwLHRR2c",
+      "colors": [2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 88,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 8,
+      "painting_title": "Night Light",
+      "youtube_src": "https://www.youtube.com/embed/l141Y0x8om0",
+      "colors": [18, 1, 3, 4, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 89,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 11,
+      "painting_title": "Pastel Seascape",
+      "youtube_src": "https://www.youtube.com/embed/K4aud_SpFDQ",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 90,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 4,
+      "painting_title": "Shades of Grey",
+      "youtube_src": "https://www.youtube.com/embed/I-ousb8-SD0",
+      "colors": [13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 91,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 8,
+      "painting_title": "Sunset Oval",
+      "youtube_src": "https://www.youtube.com/embed/9xG6IzcGotI",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 92,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 8,
+      "painting_title": "Trail's End",
+      "youtube_src": "https://www.youtube.com/embed/XWQrP-WiLgc",
+      "colors": [18, 1, 5, 9, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 93,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 7,
+      "painting_title": "Cabin in the Woods",
+      "youtube_src": "https://www.youtube.com/embed/81QKellPA70",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 94,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 12,
+      "painting_title": "Dock Scene",
+      "youtube_src": "https://www.youtube.com/embed/4KYxkqlzyqM",
+      "colors": [2, 4, 5, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 95,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 2,
+      "painting_title": "Forest Edge",
+      "youtube_src": "https://www.youtube.com/embed/puGk2iFvvp0",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 96,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 13,
+      "painting_title": "Northern Lights",
+      "youtube_src": "https://www.youtube.com/embed/vgbMONXc9Cs",
+      "colors": [18, 1, 2, 5, 10, 11, 12, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 97,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 2,
+      "painting_title": "Quiet Mountain Lake",
+      "youtube_src": "https://www.youtube.com/embed/2gq2V6dCt2I",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 98,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 6,
+      "painting_title": "Secluded Beach",
+      "youtube_src": "https://www.youtube.com/embed/WGUcw_kFvzU",
+      "colors": [18, 1, 2, 4, 5, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 99,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 8,
+      "painting_title": "Evening Waterfall",
+      "youtube_src": "https://www.youtube.com/embed/PutvF_P4588",
+      "colors": [1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 100,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 1,
+      "painting_title": "Gray Mountain",
+      "youtube_src": "https://www.youtube.com/embed/4XxClvPZ1RE",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 101,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 10,
+      "painting_title": "Quiet Woods",
+      "youtube_src": "https://www.youtube.com/embed/wIZX57I4aDs",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 102,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 10,
+      "painting_title": "Rowboat on the Beach",
+      "youtube_src": "https://www.youtube.com/embed/hfvhXOvg43w",
+      "colors": [18, 4, 10, 11, 12, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 103,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 4,
+      "painting_title": "Snowy Solitude",
+      "youtube_src": "https://www.youtube.com/embed/1ZriQGhSFTM",
+      "colors": [18, 5, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 104,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 2,
+      "painting_title": "Tranquil Dawn",
+      "youtube_src": "https://www.youtube.com/embed/4abDq6Q-mlM",
+      "colors": [18, 4, 5, 7, 9, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 105,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 8,
+      "painting_title": "Valley Waterfall",
+      "youtube_src": "https://www.youtube.com/embed/VYcsYzzRae4",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 106,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 6,
+      "painting_title": "Warm Summer Day",
+      "youtube_src": "https://www.youtube.com/embed/GBN9AIw3Ao4",
+      "colors": [18, 2, 3, 4, 7, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 107,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 8,
+      "painting_title": "Golden Sunset",
+      "youtube_src": "https://www.youtube.com/embed/CiNDyckERXQ",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 108,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 4,
+      "painting_title": "Peaceful Reflections",
+      "youtube_src": "https://www.youtube.com/embed/gYuH4Ilqdhs",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 109,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 3,
+      "painting_title": "Secluded Mountain",
+      "youtube_src": "https://www.youtube.com/embed/3PZabdohLso",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 110,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 8,
+      "painting_title": "The Old Oak Tree",
+      "youtube_src": "https://www.youtube.com/embed/dN4HjAn8p5U",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 111,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 6,
+      "painting_title": "Bubbling Mountain Brook",
+      "youtube_src": "https://www.youtube.com/embed/U2_SKgM3f4A",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 112,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 8,
+      "painting_title": "By the Sea",
+      "youtube_src": "https://www.youtube.com/embed/8tHHBTK6wwc",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 113,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 8,
+      "painting_title": "Cypress Swamp",
+      "youtube_src": "https://www.youtube.com/embed/FdIUHudQABI",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 114,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 2,
+      "painting_title": "Enchanted Falls Oval",
+      "youtube_src": "https://www.youtube.com/embed/HklPkQ0lSKA",
+      "colors": [18, 1, 7, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 115,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 10,
+      "painting_title": "Forest Down Oval",
+      "youtube_src": "https://www.youtube.com/embed/COsJUfPN2dA",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 116,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 5,
+      "painting_title": "Towering Glacier",
+      "youtube_src": "https://www.youtube.com/embed/67vdGbA3Xkg",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 117,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 8,
+      "painting_title": "Deep Wilderness Home",
+      "youtube_src": "https://www.youtube.com/embed/uZWNvDFfbUk",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 118,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 1,
+      "painting_title": "Golden Knoll",
+      "youtube_src": "https://www.youtube.com/embed/-O0Bs65eN5w",
+      "colors": [4, 5, 7, 10, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 119,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 11,
+      "painting_title": "Pathway to Autumn",
+      "youtube_src": "https://www.youtube.com/embed/Hg5RKc6xiL4",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 120,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 7,
+      "painting_title": "Windy Waves",
+      "youtube_src": "https://www.youtube.com/embed/y6GVVjG4HMg",
+      "colors": [18, 2, 4, 5, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 121,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 13,
+      "painting_title": "Wooded Stream Oval",
+      "youtube_src": "https://www.youtube.com/embed/-XA2h17y3HU",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 122,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 6,
+      "painting_title": "An Arctic Winter Day",
+      "youtube_src": "https://www.youtube.com/embed/9BHWlbjd95c",
+      "colors": [18, 5, 10, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 123,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 4,
+      "painting_title": "Countryside Oval",
+      "youtube_src": "https://www.youtube.com/embed/hdNH5axK4u0",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 124,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 2,
+      "painting_title": "Delightful Meadow Home",
+      "youtube_src": "https://www.youtube.com/embed/tWoInh2USOs",
+      "colors": [18, 2, 4, 7, 10, 13, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 125,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 11,
+      "painting_title": "Fisherman's Paradise",
+      "youtube_src": "https://www.youtube.com/embed/uJLK85uU5mA",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 126,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 9,
+      "painting_title": "The Old Mill",
+      "youtube_src": "https://www.youtube.com/embed/OFKFUJ9eDNs",
+      "colors": [18, 2, 3, 4, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 127,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 9,
+      "painting_title": "Tranquil Wooded Stream",
+      "youtube_src": "https://www.youtube.com/embed/lSeRrm5ZK9c",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 128,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 3,
+      "painting_title": "Twin Falls",
+      "youtube_src": "https://www.youtube.com/embed/cMwkY8ojRik",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 129,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 7,
+      "painting_title": "Autumn Palette",
+      "youtube_src": "https://www.youtube.com/embed/HWrvW-NgaOY",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 130,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 10,
+      "painting_title": "Just Before the Storm",
+      "youtube_src": "https://www.youtube.com/embed/Rh-jKrMrmOA",
+      "colors": [18, 4, 5, 10, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 131,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 4,
+      "painting_title": "Lake in the Valley",
+      "youtube_src": "https://www.youtube.com/embed/KvJmSrErm20",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 132,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 3,
+      "painting_title": "Mountain Ridge Lake",
+      "youtube_src": "https://www.youtube.com/embed/Hq-z06i6HCs",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 133,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 6,
+      "painting_title": "Oriental Falls",
+      "youtube_src": "https://www.youtube.com/embed/v8Znj8bbmCQ",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 134,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 9,
+      "painting_title": "Black and White Seascape",
+      "youtube_src": "https://www.youtube.com/embed/PMDyPrE0puo",
+      "colors": [18, 1, 2, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 135,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 10,
+      "painting_title": "Surprising Falls",
+      "youtube_src": "https://www.youtube.com/embed/QbclL1ca7_s",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 136,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 1,
+      "painting_title": "Two Seasons",
+      "youtube_src": "https://www.youtube.com/embed/jwVz0uTLH1I",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 137,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 13,
+      "painting_title": "Evening at the Falls",
+      "youtube_src": "https://www.youtube.com/embed/RulXVcpgpqw",
+      "colors": [1, 4, 9, 10, 13, 14, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 138,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 3,
+      "painting_title": "Rustic Winter Woods",
+      "youtube_src": "https://www.youtube.com/embed/3q8Zi9480lw",
+      "colors": [18, 4, 7, 10, 14, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 139,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 13,
+      "painting_title": "Snowbound Cabin",
+      "youtube_src": "https://www.youtube.com/embed/obSLZWXmDak",
+      "colors": [18, 1, 9, 10, 11, 13, 14, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 140,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 7,
+      "painting_title": "Wilderness Cabin",
+      "youtube_src": "https://www.youtube.com/embed/GWehiacnd1E",
+      "colors": [18, 2, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 141,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 6,
+      "painting_title": "Misty Foothills",
+      "youtube_src": "https://www.youtube.com/embed/LEz4UVL7POE",
+      "colors": [18, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 142,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 5,
+      "painting_title": "Divine Elegance",
+      "youtube_src": "https://www.youtube.com/embed/mb-Gwx1S5Gs",
+      "colors": [18, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 143,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 4,
+      "painting_title": "Bright Autumn Trees",
+      "youtube_src": "https://www.youtube.com/embed/aR-C3h5zURM",
+      "colors": [18, 2, 4, 5, 7, 8, 10, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 144,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 10,
+      "painting_title": "Seaside Harmony",
+      "youtube_src": "https://www.youtube.com/embed/CY6sGFs209E",
+      "colors": [18, 1, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 145,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 3,
+      "painting_title": "First Snow",
+      "youtube_src": "https://www.youtube.com/embed/raAkJKeo0Sk",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 146,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 9,
+      "painting_title": "Lake View",
+      "youtube_src": "https://www.youtube.com/embed/07acfzBaoa0",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 147,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 4,
+      "painting_title": "Little Home in the Meadow",
+      "youtube_src": "https://www.youtube.com/embed/nU1zV93N-kI",
+      "colors": [18, 1, 2, 4, 7, 9, 10, 11, 13, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 148,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 2,
+      "painting_title": "Before the Snowfall",
+      "youtube_src": "https://www.youtube.com/embed/_MdMhQIOL1Y",
+      "colors": [18, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 149,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 6,
+      "painting_title": "Rivers Peace",
+      "youtube_src": "https://www.youtube.com/embed/flCWS9LB4Ks",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 150,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 7,
+      "painting_title": "Covered Bridge Oval",
+      "youtube_src": "https://www.youtube.com/embed/F4iPbH1OHsQ",
+      "colors": [18, 2, 4, 5, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 151,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 12,
+      "painting_title": "Southwest Serenity",
+      "youtube_src": "https://www.youtube.com/embed/EVfPPJ5FUmA",
+      "colors": [18, 2, 4, 5, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 152,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 8,
+      "painting_title": "High Tide",
+      "youtube_src": "https://www.youtube.com/embed/_IREQ4SIcX8",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 153,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 5,
+      "painting_title": "Double Oval Fantasy",
+      "youtube_src": "https://www.youtube.com/embed/4jAsLpJzjHM",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 154,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 13,
+      "painting_title": "Wilderness Day",
+      "youtube_src": "https://www.youtube.com/embed/nJGCVFn57U8",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 155,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 4,
+      "painting_title": "Crimson Oval",
+      "youtube_src": "https://www.youtube.com/embed/R7Y3izMFPbM",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 156,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 11,
+      "painting_title": "Soft Mountain Glow",
+      "youtube_src": "https://www.youtube.com/embed/gOGJYHWjXgE",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 157,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 1,
+      "painting_title": "Distant Mountains",
+      "youtube_src": "https://www.youtube.com/embed/GpA9UM7QGag",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 158,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 13,
+      "painting_title": "Golden Glow of Morning",
+      "youtube_src": "https://www.youtube.com/embed/qXElmiqzcI0",
+      "colors": [18, 2, 4, 7, 10, 11, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 159,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 7,
+      "painting_title": "A Spectacular View",
+      "youtube_src": "https://www.youtube.com/embed/7R9HcaDT9P4",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 160,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 1,
+      "painting_title": "Mountain Stream",
+      "youtube_src": "https://www.youtube.com/embed/xdFCj6BzQio",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 161,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 3,
+      "painting_title": "Warm Winter Day",
+      "youtube_src": "https://www.youtube.com/embed/mUJoNLWQ1yI",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 162,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 5,
+      "painting_title": "Mountain River",
+      "youtube_src": "https://www.youtube.com/embed/CnMLKAGi0yM",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 163,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 1,
+      "painting_title": "Purple Splendor",
+      "youtube_src": "https://www.youtube.com/embed/hP4GfMgsNVE",
+      "colors": [18, 11, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 164,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 7,
+      "painting_title": "Arctic Beauty",
+      "youtube_src": "https://www.youtube.com/embed/UQ-RTZCOQn0",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 165,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 9,
+      "painting_title": "Island Paradise",
+      "youtube_src": "https://www.youtube.com/embed/Cg3XAVhAas0",
+      "colors": [18, 2, 4, 5, 7, 9, 10, 11, 12, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 166,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 1,
+      "painting_title": "Winter Cabin",
+      "youtube_src": "https://www.youtube.com/embed/kdlHV6ceI_gw",
+      "colors": [2, 5, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 167,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 3,
+      "painting_title": "Ebony Sea",
+      "youtube_src": "https://www.youtube.com/embed/aOJsKNzO3i8",
+      "colors": [18, 1, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 168,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 12,
+      "painting_title": "Lonely Retreat",
+      "youtube_src": "https://www.youtube.com/embed/qTDQt_PdlYc",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 169,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 5,
+      "painting_title": "Black Seascape",
+      "youtube_src": "https://www.youtube.com/embed/P_aCan4cBwc",
+      "colors": [1, 2, 4, 5, 10, 11, 12, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 170,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 3,
+      "painting_title": "Daisy Delight",
+      "youtube_src": "https://www.youtube.com/embed/HuHC1RqtvDA",
+      "colors": [18, 4, 5, 9, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 171,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 8,
+      "painting_title": "Mountain Exhibition",
+      "youtube_src": "https://www.youtube.com/embed/bgI3_1quJ18",
+      "colors": [18, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 172,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 7,
+      "painting_title": "Winter Solitude",
+      "youtube_src": "https://www.youtube.com/embed/ov4YaCQB9co",
+      "colors": [18, 2, 5, 10, 11, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 173,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 7,
+      "painting_title": "Peaceful Haven",
+      "youtube_src": "https://www.youtube.com/embed/j20pZ96E_CE",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 174,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 13,
+      "painting_title": "Mountain Hideaway",
+      "youtube_src": "https://www.youtube.com/embed/q48EWPrbzVs",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 175,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 12,
+      "painting_title": "Misty Forest Oval",
+      "youtube_src": "https://www.youtube.com/embed/ddU9vQvSpw8",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 176,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 2,
+      "painting_title": "Country Cabin",
+      "youtube_src": "https://www.youtube.com/embed/Dkww2nHpuZw",
+      "colors": [18, 2, 5, 10, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 177,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 8,
+      "painting_title": "Little House by the Road",
+      "youtube_src": "https://www.youtube.com/embed/3CDg_9gL-5M",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 178,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 9,
+      "painting_title": "Emerald Waters",
+      "youtube_src": "https://www.youtube.com/embed/lLunPQBzW6g",
+      "colors": [1, 4, 5, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 179,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 10,
+      "painting_title": "Balmy Beach",
+      "youtube_src": "https://www.youtube.com/embed/kMgd6r6c4vE",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 12, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 180,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 11,
+      "painting_title": "Lake at the Ridge",
+      "youtube_src": "https://www.youtube.com/embed/8QWvzEQ69Kw",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 181,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 5,
+      "painting_title": "Winter Oval",
+      "youtube_src": "https://www.youtube.com/embed/pYWiLm_-sXw",
+      "colors": [18, 2, 5, 10, 11, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 182,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 12,
+      "painting_title": "Sunset Aglow",
+      "youtube_src": "https://www.youtube.com/embed/gMEZp47VKC0",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 183,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 2,
+      "painting_title": "Colors of Nature",
+      "youtube_src": "https://www.youtube.com/embed/Me9Ietooq4w",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 184,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 8,
+      "painting_title": "Wetlands",
+      "youtube_src": "https://www.youtube.com/embed/2FpVyGanPwM",
+      "colors": [18, 2, 3, 4, 7, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 185,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 4,
+      "painting_title": "Mountain Cabin",
+      "youtube_src": "https://www.youtube.com/embed/E3IAMvO8GyM",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 186,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 12,
+      "painting_title": "Oval Essence",
+      "youtube_src": "https://www.youtube.com/embed/q7WXF_BSEXw",
+      "colors": [18, 4, 5, 10, 11, 12, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 187,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 1,
+      "painting_title": "Mountain Retreat",
+      "youtube_src": "https://www.youtube.com/embed/hoimk4s8JoQ",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 188,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 12,
+      "painting_title": "Desert Hues",
+      "youtube_src": "https://www.youtube.com/embed/UUNNXGVNTuI",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 189,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 8,
+      "painting_title": "Graceful Waterfall",
+      "youtube_src": "https://www.youtube.com/embed/fBh1nA4pMDY",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 190,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 8,
+      "painting_title": "Early Autumn",
+      "youtube_src": "https://www.youtube.com/embed/SLQXlFLoqQc",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 191,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 2,
+      "painting_title": "Wayside Pond",
+      "youtube_src": "https://www.youtube.com/embed/FPW2FwK4IOo",
+      "colors": [18, 1, 2, 5, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 192,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 11,
+      "painting_title": "Western Expanse",
+      "youtube_src": "https://www.youtube.com/embed/MTInkV5ODjk",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 193,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 1,
+      "painting_title": "Frosty Winter Morn",
+      "youtube_src": "https://www.youtube.com/embed/1-9_enMBquw",
+      "colors": [18, 4, 10, 11, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 194,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 4,
+      "painting_title": "Reflections of Gold",
+      "youtube_src": "https://www.youtube.com/embed/8f9CCnqJ_1Y",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 195,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 12,
+      "painting_title": "Crimson Tide",
+      "youtube_src": "https://www.youtube.com/embed/Y7SDU4i6Fco",
+      "colors": [18, 4, 5, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 196,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 5,
+      "painting_title": "A Pretty Autumn Day",
+      "youtube_src": "https://www.youtube.com/embed/HWedDS3p7XI",
+      "colors": [18, 1, 2, 4, 7, 9, 10, 11, 12, 13, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 197,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 10,
+      "painting_title": "Ocean Sunset",
+      "youtube_src": "https://www.youtube.com/embed/OJ_xqtvZf3o",
+      "colors": [18, 2, 4, 5, 7, 9, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 198,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 7,
+      "painting_title": "Brown Mountain",
+      "youtube_src": "https://www.youtube.com/embed/Vx6v47gHBWM",
+      "colors": [18, 2, 3, 4, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 199,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 11,
+      "painting_title": "Storm's A Comin",
+      "youtube_src": "https://www.youtube.com/embed/EHD9u-lo2wc",
+      "colors": [18, 1, 2, 4, 5, 10, 11, 12, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 200,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 9,
+      "painting_title": "Majestic Pine",
+      "youtube_src": "https://www.youtube.com/embed/x5CoQj9zr-c",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 201,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 13,
+      "painting_title": "Winter Mountain",
+      "youtube_src": "https://www.youtube.com/embed/46vI20697HI",
+      "colors": [18, 2, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 202,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 10,
+      "painting_title": "Mountain at Sunset",
+      "youtube_src": "https://www.youtube.com/embed/HCsCatvigtw",
+      "colors": [18, 2, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 203,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 13,
+      "painting_title": "Mountain Challenge",
+      "youtube_src": "https://www.youtube.com/embed/o2cjLA_wgIk",
+      "colors": [18, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 204,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 9,
+      "painting_title": "Mountain Oval",
+      "youtube_src": "https://www.youtube.com/embed/Qj6lMtnCt8o",
+      "colors": [2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 205,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 2,
+      "painting_title": "Cabin at Sunset",
+      "youtube_src": "https://www.youtube.com/embed/a6Wil3OXNuI",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 206,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 11,
+      "painting_title": "Change of Seasons",
+      "youtube_src": "https://www.youtube.com/embed/QbgPu5f2Vf8",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 207,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 1,
+      "painting_title": "Hide A Way Cove",
+      "youtube_src": "https://www.youtube.com/embed/l_HqMYquc08",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 208,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 2,
+      "painting_title": "Hint of Springtime",
+      "youtube_src": "https://www.youtube.com/embed/C-OSaHvt8ms",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 209,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 5,
+      "painting_title": "Russet Winter",
+      "youtube_src": "https://www.youtube.com/embed/aE4nID1p-t0",
+      "colors": [18, 4, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 210,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 13,
+      "painting_title": "Silent Forest",
+      "youtube_src": "https://www.youtube.com/embed/AE1GKcL3NuI",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 211,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 5,
+      "painting_title": "Quiet Cove",
+      "youtube_src": "https://www.youtube.com/embed/cR9hTbSomx4",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 212,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 12,
+      "painting_title": "Mountain by the Sea",
+      "youtube_src": "https://www.youtube.com/embed/so--opB-yuQ",
+      "colors": [18, 2, 4, 5, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 213,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 7,
+      "painting_title": "Quiet Inlet",
+      "youtube_src": "https://www.youtube.com/embed/9N5IWKzYIyU",
+      "colors": [18, 3, 4, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 214,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 9,
+      "painting_title": "High Chateau",
+      "youtube_src": "https://www.youtube.com/embed/dafH8ks9Zww",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 215,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 1,
+      "painting_title": "Blue River",
+      "youtube_src": "https://www.youtube.com/embed/LygUyAb78oY",
+      "colors": [18, 1, 2, 3, 4, 7, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 216,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 12,
+      "painting_title": "Country Creek",
+      "youtube_src": "https://www.youtube.com/embed/JDa6JPcqy88",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 217,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 3,
+      "painting_title": "Not Quite Spring",
+      "youtube_src": "https://www.youtube.com/embed/N_u6x7LeyTM",
+      "colors": [18, 1, 4, 5, 10, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 218,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 5,
+      "painting_title": "Ocean Breeze",
+      "youtube_src": "https://www.youtube.com/embed/XZmdzfvXRuw",
+      "colors": [18, 1, 2, 4, 5, 10, 11, 12, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 219,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 6,
+      "painting_title": "Waves of Wonder",
+      "youtube_src": "https://www.youtube.com/embed/tayQX_ng-Nc",
+      "colors": [18, 2, 4, 5, 9, 10, 11, 12, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 220,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 12,
+      "painting_title": "Roadside Barn",
+      "youtube_src": "https://www.youtube.com/embed/vJpKhiXvXdA",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 221,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 9,
+      "painting_title": "Ebb Tide",
+      "youtube_src": "https://www.youtube.com/embed/mFOna_LN7Ys",
+      "colors": [18, 2, 4, 5, 9, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 222,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 6,
+      "painting_title": "Mirrored Images",
+      "youtube_src": "https://www.youtube.com/embed/i29frkR1T98",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 223,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 5,
+      "painting_title": "A Trace of Spring",
+      "youtube_src": "https://www.youtube.com/embed/JMPwj3u4ZTA",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 224,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 5,
+      "painting_title": "Evening Seascape",
+      "youtube_src": "https://www.youtube.com/embed/y5k4GXw_-yI",
+      "colors": [18, 1, 2, 3, 4, 11, 12, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 225,
+    "fields": {
+      "season_number": 23,
+      "episode_number": 9,
+      "painting_title": "Toward Days End",
+      "youtube_src": "https://www.youtube.com/embed/cFi_fJl40BA",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 226,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 11,
+      "painting_title": "Triple View",
+      "youtube_src": "https://www.youtube.com/embed/zoTeyliLn5o",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 227,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 12,
+      "painting_title": "Deep Forest Lake",
+      "youtube_src": "https://www.youtube.com/embed/2bjFmSQjQrw",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 228,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 10,
+      "painting_title": "Double Oval Stream",
+      "youtube_src": "https://www.youtube.com/embed/rRjnHdr9DmU",
+      "colors": [18, 2, 4, 5, 7, 8, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 229,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 6,
+      "painting_title": "Black River",
+      "youtube_src": "https://www.youtube.com/embed/6O4sfJd8G_M",
+      "colors": [18, 2, 3, 4, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 230,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 1,
+      "painting_title": "Towering Peaks",
+      "youtube_src": "https://www.youtube.com/embed/1s58rW0_LN4",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 231,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 4,
+      "painting_title": "Secluded Bridge",
+      "youtube_src": "https://www.youtube.com/embed/vrAMRxBB5KI",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 232,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 6,
+      "painting_title": "Autumn Woods",
+      "youtube_src": "https://www.youtube.com/embed/vKyMU5Z8cDI",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 233,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 10,
+      "painting_title": "Sunset over the Waves",
+      "youtube_src": "https://www.youtube.com/embed/c4b_B2F1eZg",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 234,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 11,
+      "painting_title": "Golden Glow",
+      "youtube_src": "https://www.youtube.com/embed/aA8RhtaWACA",
+      "colors": [4, 5, 7, 9, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 235,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 7,
+      "painting_title": "Lakeside Path",
+      "youtube_src": "https://www.youtube.com/embed/1yjGoJokbZg",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 236,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 9,
+      "painting_title": "Winter Barn",
+      "youtube_src": "https://www.youtube.com/embed/_xkn0ceDreo",
+      "colors": [18, 5, 10, 11, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 237,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 12,
+      "painting_title": "Mountain in an Oval",
+      "youtube_src": "https://www.youtube.com/embed/1jRPshs27H8",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 238,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 6,
+      "painting_title": "Steep Mountains",
+      "youtube_src": "https://www.youtube.com/embed/fRK8_ioYWw4",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 239,
+    "fields": {
+      "season_number": 12,
+      "episode_number": 9,
+      "painting_title": "Tropical Seascape",
+      "youtube_src": "https://www.youtube.com/embed/RrBsbqO9aqI",
+      "colors": [18, 2, 4, 5, 7, 9, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 240,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 7,
+      "painting_title": "Cabin by the Pond",
+      "youtube_src": "https://www.youtube.com/embed/TyOO6WeP2AY",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 241,
+    "fields": {
+      "season_number": 15,
+      "episode_number": 8,
+      "painting_title": "Fall Stream",
+      "youtube_src": "https://www.youtube.com/embed/ZY0ofhdV_L0",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 242,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 10,
+      "painting_title": "That Time of Year",
+      "youtube_src": "https://www.youtube.com/embed/q5moLoqOkP0",
+      "colors": [18, 2, 4, 7, 10, 11, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 243,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 4,
+      "painting_title": "Mountain Mirage Wood Shape",
+      "youtube_src": "https://www.youtube.com/embed/jfCsew_mz7A",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 244,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 1,
+      "painting_title": "Meadow Lake",
+      "youtube_src": "https://www.youtube.com/embed/GARWowi0QXI",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 245,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 1,
+      "painting_title": "Mystic Mountain",
+      "youtube_src": "https://www.youtube.com/embed/VlucWfTUo1A",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 246,
+    "fields": {
+      "season_number": 20,
+      "episode_number": 3,
+      "painting_title": "Winter in Pastel",
+      "youtube_src": "https://www.youtube.com/embed/kbnXZRNMouM",
+      "colors": [18, 2, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 247,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 10,
+      "painting_title": "Blue Winter",
+      "youtube_src": "https://www.youtube.com/embed/liR0gS0sZY0",
+      "colors": [10, 13, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 248,
+    "fields": {
+      "season_number": 21,
+      "episode_number": 11,
+      "painting_title": "Desert Glow",
+      "youtube_src": "https://www.youtube.com/embed/QyncJfL_HmU",
+      "colors": [18, 2, 4, 7, 10, 11, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 249,
+    "fields": {
+      "season_number": 22,
+      "episode_number": 3,
+      "painting_title": "Around the Bend",
+      "youtube_src": "https://www.youtube.com/embed/Kl5X3icOVvw",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 250,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 4,
+      "painting_title": "Splashes of Autumn",
+      "youtube_src": "https://www.youtube.com/embed/YcbaMqq_X8s",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 251,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 5,
+      "painting_title": "Summer in the Mountain",
+      "youtube_src": "https://www.youtube.com/embed/gmCXgS38NDc",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 252,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 9,
+      "painting_title": "Downstream View",
+      "youtube_src": "https://www.youtube.com/embed/KsDPg5HZYNw",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 253,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 10,
+      "painting_title": "Purple Mountain Range",
+      "youtube_src": "https://www.youtube.com/embed/nkDA_R-XmqA",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 254,
+    "fields": {
+      "season_number": 26,
+      "episode_number": 7,
+      "painting_title": "Snow Birch",
+      "youtube_src": "https://www.youtube.com/embed/wKeemvioVrM",
+      "colors": [1, 7, 11, 13, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 255,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 10,
+      "painting_title": "Splendor of Autumn",
+      "youtube_src": "https://www.youtube.com/embed/hEyR2FDp-00",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 256,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 5,
+      "painting_title": "The Magic of Fall",
+      "youtube_src": "https://www.youtube.com/embed/bSm3fmEyJ20",
+      "colors": [18, 2, 4, 7, 9, 10, 11, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 257,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 7,
+      "painting_title": "The Old Weathered Barn",
+      "youtube_src": "https://www.youtube.com/embed/NYUIIBFj0iQ",
+      "colors": [18, 2, 4, 7, 10, 11, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 258,
+    "fields": {
+      "season_number": 28,
+      "episode_number": 8,
+      "painting_title": "Deep Forest Falls",
+      "youtube_src": "https://www.youtube.com/embed/urHQRbRNuYI",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 259,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 2,
+      "painting_title": "Secluded Lake",
+      "youtube_src": "https://www.youtube.com/embed/2OxSJcFvpoU",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 260,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 5,
+      "painting_title": "Portrait of Sally",
+      "youtube_src": "https://www.youtube.com/embed/MHJB0IBnuD4",
+      "colors": [18, 2, 4, 5, 7, 11, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 261,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 6,
+      "painting_title": "Misty Waterfall",
+      "youtube_src": "https://www.youtube.com/embed/530_cVmexiI",
+      "colors": [18, 2, 5, 7, 10, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 262,
+    "fields": {
+      "season_number": 7,
+      "episode_number": 9,
+      "painting_title": "Lake by Mountain",
+      "youtube_src": "https://www.youtube.com/embed/yAiYirlcq7o",
+      "colors": [18, 2, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 263,
+    "fields": {
+      "season_number": 16,
+      "episode_number": 6,
+      "painting_title": "Contemplative Lady",
+      "youtube_src": "https://www.youtube.com/embed/gnp6WE7Ql-s",
+      "colors": [16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 264,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 2,
+      "painting_title": "Winter Sun",
+      "youtube_src": "https://www.youtube.com/embed/VPfYRj4DDco",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 265,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 11,
+      "painting_title": "Enchanted Forest",
+      "youtube_src": "https://www.youtube.com/embed/ikR7UT9mVBw",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 266,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 2,
+      "painting_title": "The Old Home Place",
+      "youtube_src": "https://www.youtube.com/embed/EVQcDEiJh2o",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 267,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 11,
+      "painting_title": "Black Waterfall",
+      "youtube_src": "https://www.youtube.com/embed/GzSqjyQUPZQ",
+      "colors": [18, 1, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 268,
+    "fields": {
+      "season_number": 2,
+      "episode_number": 13,
+      "painting_title": "Final Grace",
+      "youtube_src": "https://www.youtube.com/embed/miJ19Kz_i3Y",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 269,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 3,
+      "painting_title": "Soothing Vista",
+      "youtube_src": "https://www.youtube.com/embed/NqfRLiv0SZ0",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 270,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 8,
+      "painting_title": "View from the Park",
+      "youtube_src": "https://www.youtube.com/embed/Q4n90jsOUtY",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 271,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 5,
+      "painting_title": "Country Time",
+      "youtube_src": "https://www.youtube.com/embed/e_bt9rQoGN0",
+      "colors": [18, 2, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 272,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 6,
+      "painting_title": "A Mild Winter's Day",
+      "youtube_src": "https://www.youtube.com/embed/BbYO579MmhA",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 273,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 7,
+      "painting_title": "Spectacular Waterfall",
+      "youtube_src": "https://www.youtube.com/embed/nK-HebXL2uw",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 274,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 11,
+      "painting_title": "Northwest Majesty",
+      "youtube_src": "https://www.youtube.com/embed/9DU6bunvD_g",
+      "colors": [18, 2, 3, 4, 7, 8, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 275,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 2,
+      "painting_title": "Blue Moon",
+      "youtube_src": "https://www.youtube.com/embed/loit61vLUMc",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 276,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 3,
+      "painting_title": "Bubbling Stream",
+      "youtube_src": "https://www.youtube.com/embed/fuFalEXVN0k",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 277,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 10,
+      "painting_title": "Campfire",
+      "youtube_src": "https://www.youtube.com/embed/L5bXkI0-pEg",
+      "colors": [18, 1, 2, 3, 4, 7, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 278,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 9,
+      "painting_title": "Cool Waters",
+      "youtube_src": "https://www.youtube.com/embed/tJRvBcqQd5A",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 279,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 5,
+      "painting_title": "Distant Hills",
+      "youtube_src": "https://www.youtube.com/embed/8Zge88tVwjE",
+      "colors": [18, 3, 4, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 280,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 12,
+      "painting_title": "Hidden Lake",
+      "youtube_src": "https://www.youtube.com/embed/P_DaqkFbnac",
+      "colors": [18, 2, 3, 4, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 281,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 3,
+      "painting_title": "Majestic Mountains",
+      "youtube_src": "https://www.youtube.com/embed/NcVeRlPu_5w",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 282,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 13,
+      "painting_title": "Peaceful Waters",
+      "youtube_src": "https://www.youtube.com/embed/Z0vtjRLqXcQ",
+      "colors": [18, 4, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 283,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 11,
+      "painting_title": "Rustic Barn",
+      "youtube_src": "https://www.youtube.com/embed/WJJwrnFhUUg",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 284,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 2,
+      "painting_title": "Tranquil Valley",
+      "youtube_src": "https://www.youtube.com/embed/PbchoOWWCZs",
+      "colors": [18, 2, 3, 4, 7, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 285,
+    "fields": {
+      "season_number": 3,
+      "episode_number": 4,
+      "painting_title": "Winter Night",
+      "youtube_src": "https://www.youtube.com/embed/8ysFkNYwhAE",
+      "colors": [18, 2, 4, 8, 12, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 286,
+    "fields": {
+      "season_number": 4,
+      "episode_number": 4,
+      "painting_title": "Winter Sawscape",
+      "youtube_src": "https://www.youtube.com/embed/lmKAwKrONmE",
+      "colors": [1, 2, 3, 4, 10, 13, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 287,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 2,
+      "painting_title": "Absolutely Autumn",
+      "youtube_src": "https://www.youtube.com/embed/PGPVpil2UmE",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 288,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 9,
+      "painting_title": "Anatomy of a Wave",
+      "youtube_src": "https://www.youtube.com/embed/DFQlu6eqrBo",
+      "colors": [18, 4, 9, 11, 12, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 289,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 8,
+      "painting_title": "Arizona Splendor",
+      "youtube_src": "https://www.youtube.com/embed/spFwCh2616s",
+      "colors": [18, 3, 4, 7, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 290,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 12,
+      "painting_title": "Aurora's Dance",
+      "youtube_src": "https://www.youtube.com/embed/iRMsb9Vf7GM",
+      "colors": [18, 5, 9, 10, 11, 12, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 291,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 5,
+      "painting_title": "Autumn Exhibition",
+      "youtube_src": "https://www.youtube.com/embed/6afHY2d9Lv8",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 292,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 2,
+      "painting_title": "Autumn Oval",
+      "youtube_src": "https://www.youtube.com/embed/2XnIdinwot0",
+      "colors": [18, 2, 4, 5, 7, 10, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 293,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 7,
+      "painting_title": "Back-Country Path",
+      "youtube_src": "https://www.youtube.com/embed/2iNMoQB1Pe8",
+      "colors": [18, 1, 2, 4, 7, 10, 11, 13, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 294,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 13,
+      "painting_title": "Blaze of Color",
+      "youtube_src": "https://www.youtube.com/embed/se7wOprxRGs",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 295,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 7,
+      "painting_title": "Bubbling Brook",
+      "youtube_src": "https://www.youtube.com/embed/LiKCzeqn-kg",
+      "colors": [18, 2, 3, 4, 7, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 296,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 11,
+      "painting_title": "Cabin Hideaway",
+      "youtube_src": "https://www.youtube.com/embed/NjTlW2NL1Lo",
+      "colors": [18, 2, 4, 5, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 297,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 5,
+      "painting_title": "Cabin in the Hollow",
+      "youtube_src": "https://www.youtube.com/embed/KYlM2zJnNWY",
+      "colors": [18, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 298,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 10,
+      "painting_title": "Cactus at Sunset",
+      "youtube_src": "https://www.youtube.com/embed/XBqD3QhKU24",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 299,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 5,
+      "painting_title": "Camper's Haven",
+      "youtube_src": "https://www.youtube.com/embed/C34WAUgkAT0",
+      "colors": [18, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 300,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 10,
+      "painting_title": "Country Charm",
+      "youtube_src": "https://www.youtube.com/embed/9wp8NRzCJnw",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 301,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 10,
+      "painting_title": "Country Life",
+      "youtube_src": "https://www.youtube.com/embed/j8Jf7QVKLgQ",
+      "colors": [18, 2, 3, 4, 7, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 302,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 5,
+      "painting_title": "Countryside Barn",
+      "youtube_src": "https://www.youtube.com/embed/G7Etn7QMeO4",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 303,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 6,
+      "painting_title": "Daisies at Dawn",
+      "youtube_src": "https://www.youtube.com/embed/_kkZcIgocBM",
+      "colors": [18, 2, 4, 7, 10, 14, 15, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 304,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 8,
+      "painting_title": "Daybreak",
+      "youtube_src": "https://www.youtube.com/embed/crWDcTvDmec",
+      "colors": [18, 4, 5, 10, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 305,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 4,
+      "painting_title": "Evening at Sunset",
+      "youtube_src": "https://www.youtube.com/embed/7ZUQTXuDPaI",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 306,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 12,
+      "painting_title": "Evening's Glow",
+      "youtube_src": "https://www.youtube.com/embed/eTEKGOi6SVg",
+      "colors": [18, 2, 4, 5, 7, 10, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 307,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 12,
+      "painting_title": "Evening's Peace",
+      "youtube_src": "https://www.youtube.com/embed/uEUMVwc4o5U",
+      "colors": [18, 1, 4, 5, 9, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 308,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 9,
+      "painting_title": "Evergreen Valley",
+      "youtube_src": "https://www.youtube.com/embed/mEU0stNfkxI",
+      "colors": [18, 2, 4, 5, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 309,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 3,
+      "painting_title": "Final Embers of Sunlight",
+      "youtube_src": "https://www.youtube.com/embed/IeFbdk36MUU",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 310,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 8,
+      "painting_title": "Foot of the Mountain",
+      "youtube_src": "https://www.youtube.com/embed/cIUBUc_ITBc",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 311,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 7,
+      "painting_title": "Forest Hills",
+      "youtube_src": "https://www.youtube.com/embed/E3XW_Zp238U",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 312,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 12,
+      "painting_title": "Forest River",
+      "youtube_src": "https://www.youtube.com/embed/wrbGlR22K0Q",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 313,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 2,
+      "painting_title": "Frozen Solitude",
+      "youtube_src": "https://www.youtube.com/embed/kNZssD9zWlw",
+      "colors": [5, 10, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 314,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 7,
+      "painting_title": "Golden Morning Mist",
+      "youtube_src": "https://www.youtube.com/embed/rCHXqj4DHlM",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 315,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 6,
+      "painting_title": "Graceful Mountains",
+      "youtube_src": "https://www.youtube.com/embed/0uVe8T-vVVg",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 316,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 1,
+      "painting_title": "Half-Oval Vignette",
+      "youtube_src": "https://www.youtube.com/embed/uY3fIry2tOE",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 317,
+    "fields": {
+      "season_number": 11,
+      "episode_number": 13,
+      "painting_title": "Happy Accident",
+      "youtube_src": "https://www.youtube.com/embed/Fw6odlNp7_8",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 318,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 6,
+      "painting_title": "Hidden Creek",
+      "youtube_src": "https://www.youtube.com/embed/KmoRz01bm0Y",
+      "colors": [1, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 319,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 8,
+      "painting_title": "Home in the Valley",
+      "youtube_src": "https://www.youtube.com/embed/enutOy-nsZk",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 320,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 8,
+      "painting_title": "Horizons West",
+      "youtube_src": "https://www.youtube.com/embed/m6UM-rN2D6s",
+      "colors": [18, 2, 4, 7, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 321,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 5,
+      "painting_title": "Hunter's Haven",
+      "youtube_src": "https://www.youtube.com/embed/Da4SPyh1ATM",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 322,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 9,
+      "painting_title": "Icy Lake",
+      "youtube_src": "https://www.youtube.com/embed/AmBDmgta3l4",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 323,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 12,
+      "painting_title": "Indian Girl",
+      "youtube_src": "https://www.youtube.com/embed/2uXMx8Kjs8I",
+      "colors": [2, 3, 7, 13, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 324,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 1,
+      "painting_title": "Island in the Wilderness",
+      "youtube_src": "https://www.youtube.com/embed/lLWEXRAnQd0",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 325,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 13,
+      "painting_title": "Lost Lake",
+      "youtube_src": "https://www.youtube.com/embed/9-ATP8xyDM0",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 326,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 6,
+      "painting_title": "Majestic Peaks",
+      "youtube_src": "https://www.youtube.com/embed/lilbzLCNnDo",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 327,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 12,
+      "painting_title": "Marshlands",
+      "youtube_src": "https://www.youtube.com/embed/Ugiwi8uizpg",
+      "colors": [18, 1, 2, 3, 4, 7, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 328,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 3,
+      "painting_title": "Meadow Brook",
+      "youtube_src": "https://www.youtube.com/embed/06W8GsWj2Yg",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 329,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 4,
+      "painting_title": "Meadow Road",
+      "youtube_src": "https://www.youtube.com/embed/u5VT_WGM0kg",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 330,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 13,
+      "painting_title": "Meadow Stream",
+      "youtube_src": "https://www.youtube.com/embed/87MMbN1bQCs",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 331,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 1,
+      "painting_title": "Misty Rolling Hills",
+      "youtube_src": "https://www.youtube.com/embed/cC5ozePVKGI",
+      "colors": [18, 2, 4, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 332,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 3,
+      "painting_title": "Morning Mist",
+      "youtube_src": "https://www.youtube.com/embed/wbZreRaE74k",
+      "colors": [18, 2, 3, 4, 7, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 333,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 11,
+      "painting_title": "Morning Walk",
+      "youtube_src": "https://www.youtube.com/embed/pSvgNkQdR2Y",
+      "colors": [18, 1, 2, 4, 5, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 334,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 13,
+      "painting_title": "Mountain Beauty",
+      "youtube_src": "https://www.youtube.com/embed/8P-YeoTmVrw",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 335,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 3,
+      "painting_title": "Mountain Blossoms",
+      "youtube_src": "https://www.youtube.com/embed/UVhhStJAJZc",
+      "colors": [18, 8, 11, 12, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 336,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 6,
+      "painting_title": "Mountain Lake Falls",
+      "youtube_src": "https://www.youtube.com/embed/dNEp3hoHSDI",
+      "colors": [18, 4, 10, 11, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 337,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 3,
+      "painting_title": "Mountain Moonlight Oval",
+      "youtube_src": "https://www.youtube.com/embed/CigXQtT6BPM",
+      "colors": [18, 1, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 338,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 9,
+      "painting_title": "Mountain Path",
+      "youtube_src": "https://www.youtube.com/embed/e0VUprkc1n0",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 339,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 11,
+      "painting_title": "Mountain Range",
+      "youtube_src": "https://www.youtube.com/embed/V_l6olF3yHI",
+      "colors": [18, 2, 4, 7, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 340,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 10,
+      "painting_title": "Mountain Summit",
+      "youtube_src": "https://www.youtube.com/embed/kasGRkfkiPM",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 341,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 5,
+      "painting_title": "Mountain View",
+      "youtube_src": "https://www.youtube.com/embed/dJfnAyDLwPY",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 342,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 1,
+      "painting_title": "Mountain Waterfall",
+      "youtube_src": "https://www.youtube.com/embed/DqhzxdkdQS0",
+      "colors": [18, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 343,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 9,
+      "painting_title": "Mountains of Grace",
+      "youtube_src": "https://www.youtube.com/embed/nXlu_Q0sR7c",
+      "colors": [18, 2, 4, 5, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 344,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 2,
+      "painting_title": "Nature's Edge",
+      "youtube_src": "https://www.youtube.com/embed/Bcqyzo85A1o",
+      "colors": [18, 2, 3, 4, 7, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 345,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 11,
+      "painting_title": "Nature's Paradise",
+      "youtube_src": "https://www.youtube.com/embed/7yU55PUls2c",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 346,
+    "fields": {
+      "season_number": 17,
+      "episode_number": 12,
+      "painting_title": "Nature's Splendor",
+      "youtube_src": "https://www.youtube.com/embed/uCAtI2IwEwk",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 347,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 6,
+      "painting_title": "Ocean Sunrise",
+      "youtube_src": "https://www.youtube.com/embed/u0Bz6TNUK1Q",
+      "colors": [18, 7, 8, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 348,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 11,
+      "painting_title": "Portrait of Winter",
+      "youtube_src": "https://www.youtube.com/embed/JLnIUGOupOA",
+      "colors": [18, 10, 11, 13, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 349,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 5,
+      "painting_title": "Quiet Pond",
+      "youtube_src": "https://www.youtube.com/embed/aiK9xOIJtV8",
+      "colors": [18, 2, 3, 4, 7, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 350,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 3,
+      "painting_title": "Red Sunset",
+      "youtube_src": "https://www.youtube.com/embed/e5JhYi_G-l0",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 351,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 1,
+      "painting_title": "Reflections of Calm",
+      "youtube_src": "https://www.youtube.com/embed/kJFB6rH3z2A",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 352,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 9,
+      "painting_title": "Riverside Escape Oval",
+      "youtube_src": "https://www.youtube.com/embed/d83REwSGfGo",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 353,
+    "fields": {
+      "season_number": 13,
+      "episode_number": 1,
+      "painting_title": "Rolling Hills",
+      "youtube_src": "https://www.youtube.com/embed/H4GyGrT7lEQ",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 354,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 8,
+      "painting_title": "Scenic Seclusion",
+      "youtube_src": "https://www.youtube.com/embed/d50HkqB9JEM",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 355,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 3,
+      "painting_title": "Seasonal Progression",
+      "youtube_src": "https://www.youtube.com/embed/T2G5waMfQ-g",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 356,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 5,
+      "painting_title": "Secluded Forest",
+      "youtube_src": "https://www.youtube.com/embed/USkduOfwJok",
+      "colors": [18, 1, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 357,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 11,
+      "painting_title": "Shadow Pond",
+      "youtube_src": "https://www.youtube.com/embed/BQWJ3kqonpA",
+      "colors": [18, 1, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 358,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 6,
+      "painting_title": "Snow Trail",
+      "youtube_src": "https://www.youtube.com/embed/n9EsFFtwZnE",
+      "colors": [18, 3, 4, 11, 12, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 359,
+    "fields": {
+      "season_number": 19,
+      "episode_number": 1,
+      "painting_title": "Snowfall Magic",
+      "youtube_src": "https://www.youtube.com/embed/1enWTsRi16o",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 360,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 11,
+      "painting_title": "Splendor of a Snowy Winter",
+      "youtube_src": "https://www.youtube.com/embed/JdXCoxkOdwQ",
+      "colors": [18, 5, 8, 9, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 361,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 9,
+      "painting_title": "Storm on the Horizon",
+      "youtube_src": "https://www.youtube.com/embed/pA_2paUhBAQ",
+      "colors": [18, 2, 5, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 362,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 10,
+      "painting_title": "Sunlight in the Shadows",
+      "youtube_src": "https://www.youtube.com/embed/xgjQ0v2d9mE",
+      "colors": [18, 1, 9, 10, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 363,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 2,
+      "painting_title": "Surf's Up",
+      "youtube_src": "https://www.youtube.com/embed/ZKxFvyyOBPQ",
+      "colors": [18, 2, 4, 5, 9, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 364,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 3,
+      "painting_title": "Teton Winter",
+      "youtube_src": "https://www.youtube.com/embed/I4h6TC4CPJY",
+      "colors": [18, 10, 11, 13, 14, 15]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 365,
+    "fields": {
+      "season_number": 24,
+      "episode_number": 12,
+      "painting_title": "The Footbridge",
+      "youtube_src": "https://www.youtube.com/embed/RqtDliGeyTg",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 366,
+    "fields": {
+      "season_number": 25,
+      "episode_number": 13,
+      "painting_title": "The Property Line",
+      "youtube_src": "https://www.youtube.com/embed/ivesI3rU7dU",
+      "colors": [18, 2, 4, 5, 7, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 367,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 10,
+      "painting_title": "The Windmill",
+      "youtube_src": "https://www.youtube.com/embed/xj8xsTSkbUk",
+      "colors": [18, 1, 2, 3, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 368,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 7,
+      "painting_title": "Through the Window",
+      "youtube_src": "https://www.youtube.com/embed/SrN4A9rVXj0",
+      "colors": [18, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 369,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 4,
+      "painting_title": "Tranquility Cove",
+      "youtube_src": "https://www.youtube.com/embed/7t6ue0pEcNE",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 370,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 8,
+      "painting_title": "Trapper's Cabin",
+      "youtube_src": "https://www.youtube.com/embed/chhCkmp0RG8",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 371,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 1,
+      "painting_title": "Twilight Beauty",
+      "youtube_src": "https://www.youtube.com/embed/0mJqzzeWyXs",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 11, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 372,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 2,
+      "painting_title": "Twilight Meadow",
+      "youtube_src": "https://www.youtube.com/embed/6evqNlOO7Bw",
+      "colors": [18, 1, 2, 3, 4, 7, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 373,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 6,
+      "painting_title": "View from Clear Creek",
+      "youtube_src": "https://www.youtube.com/embed/TLX1bmS8wBE",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 374,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 4,
+      "painting_title": "Waterside Way",
+      "youtube_src": "https://www.youtube.com/embed/uj5FE70BcB0",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 375,
+    "fields": {
+      "season_number": 6,
+      "episode_number": 4,
+      "painting_title": "Whispering Stream",
+      "youtube_src": "https://www.youtube.com/embed/QglIjlqsUdU",
+      "colors": [18, 2, 3, 4, 7, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 376,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 4,
+      "painting_title": "Wilderness Trail",
+      "youtube_src": "https://www.youtube.com/embed/vGsW_6BCukU",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 377,
+    "fields": {
+      "season_number": 31,
+      "episode_number": 3,
+      "painting_title": "Winding Stream",
+      "youtube_src": "https://www.youtube.com/embed/QDwd4pMYyuo",
+      "colors": [18, 2, 4, 5, 7, 8, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 378,
+    "fields": {
+      "season_number": 9,
+      "episode_number": 1,
+      "painting_title": "Winter Evergreens",
+      "youtube_src": "https://www.youtube.com/embed/O6L5YPt9CeU",
+      "colors": [18, 2, 5, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 379,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 12,
+      "painting_title": "Winter Frost",
+      "youtube_src": "https://www.youtube.com/embed/8satX-hLkuI",
+      "colors": [18, 2, 4, 5, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 380,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 4,
+      "painting_title": "Winter Stillness",
+      "youtube_src": "https://www.youtube.com/embed/qg9c1SqdRko",
+      "colors": [18, 3, 7, 11, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 381,
+    "fields": {
+      "season_number": 27,
+      "episode_number": 5,
+      "painting_title": "Winter at the Farm",
+      "youtube_src": "https://www.youtube.com/embed/LeIVNKnWz7o",
+      "colors": [18, 5, 9, 10, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 382,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 3,
+      "painting_title": "Winter's Peace",
+      "youtube_src": "https://www.youtube.com/embed/Xzv3iiWi1Wo",
+      "colors": [18, 2, 5, 7, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 383,
+    "fields": {
+      "season_number": 30,
+      "episode_number": 2,
+      "painting_title": "Woodgrain View",
+      "youtube_src": "https://www.youtube.com/embed/fcx1yUuSf3o",
+      "colors": [18, 1, 2, 4, 5, 7, 9, 10, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 384,
+    "fields": {
+      "season_number": 29,
+      "episode_number": 13,
+      "painting_title": "Woodman's Retreat",
+      "youtube_src": "https://www.youtube.com/embed/ODrV0dfQcNs",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 385,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 8,
+      "painting_title": "On a Clear Day",
+      "youtube_src": "https://www.youtube.com/embed/e63Cgln6Yag",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 386,
+    "fields": {
+      "season_number": 18,
+      "episode_number": 3,
+      "painting_title": "Mountain Seclusion",
+      "youtube_src": "https://www.youtube.com/embed/EBZKuVbRY54",
+      "colors": [18, 1, 4, 5, 9, 10, 11, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 387,
+    "fields": {
+      "season_number": 5,
+      "episode_number": 11,
+      "painting_title": "Autumn Glory",
+      "youtube_src": "https://www.youtube.com/embed/yTzlm_t0RmY",
+      "colors": [18, 3, 4, 7, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 388,
+    "fields": {
+      "season_number": 8,
+      "episode_number": 2,
+      "painting_title": "Lakeside Cabin",
+      "youtube_src": "https://www.youtube.com/embed/CP6_5cQVZvQ",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 12, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 389,
+    "fields": {
+      "season_number": 14,
+      "episode_number": 13,
+      "painting_title": "Natural Wonder",
+      "youtube_src": "https://www.youtube.com/embed/knOutsaiKfU",
+      "colors": [18, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 390,
+    "fields": {
+      "season_number": 10,
+      "episode_number": 13,
+      "painting_title": "Lakeside Cabin",
+      "youtube_src": "https://www.youtube.com/embed/1l_TsfCIb_I",
+      "colors": [18, 2, 4, 5, 7, 10, 11, 13, 14, 15, 16, 17]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 391,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 7,
+      "painting_title": "Autumn Mountain",
+      "youtube_src": "https://www.youtube.com/embed/sDdpc8uisD0",
+      "colors": [18, 2, 4, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 392,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 3,
+      "painting_title": "Ebony Sunset",
+      "youtube_src": "https://www.youtube.com/embed/UOziR7PoVco",
+      "colors": [18, 1, 2, 4, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 393,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 13,
+      "painting_title": "Final Reflections",
+      "youtube_src": "https://www.youtube.com/embed/IEQWfszfRlA",
+      "colors": [18, 2, 4, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 394,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 10,
+      "painting_title": "Mountain Lake",
+      "youtube_src": "https://www.youtube.com/embed/wDnLlywAL5I",
+      "colors": [18, 2, 4, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 395,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 2,
+      "painting_title": "Mt. McKinley",
+      "youtube_src": "https://www.youtube.com/embed/RInDWhYceLU",
+      "colors": [18, 2, 4, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 396,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 8,
+      "painting_title": "Peaceful Valley",
+      "youtube_src": "https://www.youtube.com/embed/kQlFwTOkYzg",
+      "colors": [18, 2, 4, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 397,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 5,
+      "painting_title": "Quiet Stream",
+      "youtube_src": "https://www.youtube.com/embed/DFSIQNjKRfk",
+      "colors": [18, 2, 4, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 398,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 9,
+      "painting_title": "Seascape",
+      "youtube_src": "https://www.youtube.com/embed/QxcS7p1VHyQ",
+      "colors": [18, 2, 4, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 399,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 12,
+      "painting_title": "Snow Fall",
+      "youtube_src": "https://www.youtube.com/embed/4E35-8x_y04",
+      "colors": [18, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 400,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 11,
+      "painting_title": "Winter Glow",
+      "youtube_src": "https://www.youtube.com/embed/Q03YvknOVe0",
+      "colors": [18, 2, 4, 12, 13, 14, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 401,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 4,
+      "painting_title": "Winter Mist",
+      "youtube_src": "https://www.youtube.com/embed/0pwoixRikn4",
+      "colors": [13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 402,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 6,
+      "painting_title": "Winter Moon",
+      "youtube_src": "https://www.youtube.com/embed/loAzRUzx1wI",
+      "colors": [1, 13, 15, 16]
+    }
+  },
+  {
+    "model": "episodes.episode",
+    "pk": 403,
+    "fields": {
+      "season_number": 1,
+      "episode_number": 1,
+      "painting_title": "A Walk in the Woods",
+      "youtube_src": "https://www.youtube.com/embed/oh5p5f5_-7A",
+      "colors": [18, 2, 4, 12, 13, 14, 15, 16]
+    }
+  }
+]
