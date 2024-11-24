@@ -9,4 +9,5 @@ urlpatterns = [
         views.EpisodeDetailView.as_view(),
         name="episode_detail",
     ),
+    path("", views.home, name="home"),
 ]
