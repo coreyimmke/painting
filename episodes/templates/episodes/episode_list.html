@@ -21,7 +21,11 @@
     <tbody>
       {% for episode in page_obj %}
       <tr>
-        <td>{{ episode.painting_title }}</td>
+        <td>
+          <a href="{% url 'episode_detail' episode.season_number episode.episode_number %}">
+            {{ episode.painting_title }}
+          </a>
+        </td>
         <td>{{ episode.season_number }}</td>
         <td>{{ episode.episode_number }}</td>
         <td>{{ episode.colors.all.count }}</td>

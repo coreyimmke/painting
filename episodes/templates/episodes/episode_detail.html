@@ -1,0 +1,29 @@
+{% extends "episodes/base.html" %}
+{% block title %}Joy of Painting - {{ episode.painting_title }}{% endblock %}
+
+{% block content %}
+<h2>{{ episode.painting_title }}</h2>
+<div role="doc-subtitle">Season {{ episode.season_number }} Episode {{ episode.episode_number }}</div>
+<div style="display: flex; justify-content: space-around; align-items: start; margin-top: 2rem;">
+  <div>
+    <iframe
+      width="560"
+      height="315"
+      src="{{ episode.youtube_src }}"
+      title="YouTube video player"
+      frameborder="0"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    >
+    </iframe> 
+  </div>
+  <div>
+    <h3 style="margin-top: 0px">Colors Used</h3>
+    <ul>
+      {% for color in episode.colors.all %}
+      <li>{{ color.color_name }}</li>
+      {% endfor %}
+    </ul>
+  <div>
+</div>
+{% endblock %}
